@@ -5,7 +5,7 @@ from transformers import pipeline
 
 # --- Configuration ---
 MODEL_NAME = "shehryaraijaz/m2m100-legal-translation-en-ur"
-device = 0 if torch.cuda.is_available() else -1
+DEVICE = 0 if torch.cuda.is_available() else -1
 
 # --- Load Model ---
 try:
